@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clothing - PastelCart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🌸 PastelCart
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="clothing.html">Clothing</a></li>
+            <li><a href="footwear.html">Footwear</a></li>
+            <li><a href="household.html">Household</a></li>
+            <li><a href="kitchen.html">Kitchen</a></li>
+            <li><a href="jewellery.html">Jewellery</a></li>
+            <li><a href="cart.html">
+    🛒 Cart
+    <span class="cart-count">0</span>
+</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="page-banner">
+
+    <p>FASHION COLLECTION</p>
+
+    <h1>Clothing 👗</h1>
+
+    <p>
+        Find your perfect style for every occasion.
+    </p>
+
+</section>
+
+
+<section class="section">
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="productSearch"
+            placeholder="🔍 Search clothing..."
+            onkeyup="searchProducts()">
+
+    </div>
+
+
+    <div class="filter-buttons">
+
+        <button onclick="filterProducts('all')">
+            All
+        </button>
+
+        <button onclick="filterProducts('women')">
+            Women
+        </button>
+
+        <button onclick="filterProducts('men')">
+            Men
+        </button>
+
+        <button onclick="filterProducts('kids')">
+            Kids
+        </button>
+
+    </div>
+
+
+    <div class="product-container" id="productContainer">
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-6.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-7.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\dress-8.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Floral Summer Dress</h3>
+
+                <p class="price">₹899</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Floral Summer Dress', 899)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\crop-top-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Pastel Green Crop Top</h3>
+
+                <p class="price">₹599</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Pastel Green Crop Top', 599)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\crop-top-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Pastel Crop Top</h3>
+
+                <p class="price">₹599</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Pastel Green Crop Top', 599)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\crop-top-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Pastel Crop Top</h3>
+
+                <p class="price">₹599</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Pastel Green Crop Top', 599)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\crop-top-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Pastel Crop Top</h3>
+
+                <p class="price">₹599</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Pastel Green Crop Top', 599)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\crop-top-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Pastel Crop Top</h3>
+
+                <p class="price">₹599</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Pastel Green Crop Top', 599)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\crop-top-6.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Pastel Crop Top</h3>
+
+                <p class="price">₹599</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Pastel Green Crop Top', 599)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\shirt-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Casual Cotton Shirt</h3>
+
+                <p class="price">₹799</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Casual Cotton Shirt', 799)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\shirt-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Casual Cotton Shirt</h3>
+
+                <p class="price">₹799</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Casual Cotton Shirt', 799)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\shirt-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Casual Cotton Shirt</h3>
+
+                <p class="price">₹799</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Casual Cotton Shirt', 799)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\shirt-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Casual Cotton Shirt</h3>
+
+                <p class="price">₹799</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Casual Cotton Shirt', 799)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\shirt-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Casual Cotton Shirt</h3>
+
+                <p class="price">₹799</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Casual Cotton Shirt', 799)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\shirt-6.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Casual Cotton Shirt</h3>
+
+                <p class="price">₹799</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Casual Cotton Shirt', 799)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\tshirt-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Classic T-Shirt</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\tshirt-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Classic T-Shirt</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\tshirt-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Classic T-Shirt</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\tshirt-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Classic T-Shirt</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\tshirt-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Classic T-Shirt</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\tshirt-6.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>Classic T-Shirt</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\pant-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>men's pant</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\pant-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>men's pant</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\pant-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>men's pant</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\pant-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>men's pant</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="men">
+
+            <div class="product-image"><img src="images\clothing\pant-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Men</p>
+
+                <h3>men's pant</h3>
+
+                <p class="price">₹499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Classic T-Shirt', 499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-6.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-7.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-8.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-9.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-10.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-11.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="product-card" data-category="kids">
+
+            <div class="product-image"><img src="images\clothing\kids-12.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Kids</p>
+
+                <h3>Kids Casual Outfit</h3>
+
+                <p class="price">₹699</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Kids Casual Outfit', 699)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-1.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-2.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-3.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-4.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-5.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-6.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-7.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-8.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-9.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+         <div class="product-card" data-category="women">
+
+            <div class="product-image"><img src="images\clothing\ethnic-10.jpg"></div>
+
+            <div class="product-info">
+
+                <p class="product-category">Women</p>
+
+                <h3>Elegant Ethnic Wear</h3>
+
+                <p class="price">₹1,499</p>
+
+                <button class="add-cart"
+                    onclick="addToCart('Elegant Ethnic Wear', 1499)">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="copyright">
+        <p>© 2026 PastelCart. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

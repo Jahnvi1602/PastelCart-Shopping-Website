@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PastelCart - Online Shopping</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🌸 PastelCart
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clothing.html">Clothing</a></li>
+                <li><a href="footwear.html">Footwear</a></li>
+                <li><a href="household.html">Household</a></li>
+                <li><a href="kitchen.html">Kitchen</a></li>
+                <li><a href="jewellery.html">Jewellery</a></li>
+                <li><a href="cart.html">
+    🛒 Cart
+    <span class="cart-count">0</span>
+</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-heading">WELCOME TO PASTELCART</p>
+
+            <h1>
+                Shop Your Style,
+                <span>Live Your Way</span>
+            </h1>
+
+            <p>
+                Discover beautiful products for fashion,
+                home, kitchen and everyday life.
+            </p>
+
+            <a href="#categories" class="btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Features -->
+    <section class="features">
+
+        <div class="feature-box">
+            <div>🚚</div>
+            <h3>Free Delivery</h3>
+            <p>Free delivery on orders above ₹999.</p>
+        </div>
+
+        <div class="feature-box">
+            <div>💳</div>
+            <h3>Secure Payment</h3>
+            <p>Safe and secure payment options.</p>
+        </div>
+
+        <div class="feature-box">
+            <div>🔄</div>
+            <h3>Easy Returns</h3>
+            <p>Simple and easy return process.</p>
+        </div>
+
+        <div class="feature-box">
+            <div>💗</div>
+            <h3>Quality Products</h3>
+            <p>Products selected with care.</p>
+        </div>
+
+    </section>
+
+
+    <!-- Categories -->
+    <section id="categories" class="section">
+
+        <div class="section-title">
+            <p>EXPLORE</p>
+            <h2>Shop By Category</h2>
+        </div>
+
+        <div class="category-container">
+
+            <a href="clothing.html" class="category-card">
+                <div class="category-icon">👗</div>
+                <h3>Clothing</h3>
+                <p>Trendy fashion for everyone</p>
+            </a>
+
+            <a href="footwear.html" class="category-card">
+                <div class="category-icon">👟</div>
+                <h3>Footwear</h3>
+                <p>Step into your style</p>
+            </a>
+
+            <a href="household.html" class="category-card">
+                <div class="category-icon">🏠</div>
+                <h3>Household</h3>
+                <p>Beautiful products for home</p>
+            </a>
+
+            <a href="kitchen.html" class="category-card">
+                <div class="category-icon">🍳</div>
+                <h3>Kitchen</h3>
+                <p>Useful kitchen essentials</p>
+            </a>
+
+            <a href="jewellery.html" class="category-card">
+                <div class="category-icon">💎</div>
+                <h3>Jewellery</h3>
+                <p>Add sparkle to your look</p>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Featured Products -->
+    <section class="section">
+
+        <div class="section-title">
+            <p>OUR PICKS</p>
+            <h2>Featured Products</h2>
+        </div>
+
+        <div class="product-container">
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    👗
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Clothing</p>
+
+                    <h3>Floral Summer Dress</h3>
+
+                    <p class="price">₹899</p>
+
+                    <button class="add-cart"
+                        onclick="addToCart('Floral Summer Dress', 899)">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    👟
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Footwear</p>
+
+                    <h3>Classic Sneakers</h3>
+
+                    <p class="price">₹1,299</p>
+
+                    <button class="add-cart"
+                        onclick="addToCart('Classic Sneakers', 1299)">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    🪴
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Household</p>
+
+                    <h3>Decorative Plant Pot</h3>
+
+                    <p class="price">₹499</p>
+
+                    <button class="add-cart"
+                        onclick="addToCart('Decorative Plant Pot', 499)">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    💎
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">Jewellery</p>
+
+                    <h3>Pearl Necklace</h3>
+
+                    <p class="price">₹699</p>
+
+                    <button class="add-cart"
+                        onclick="addToCart('Pearl Necklace', 699)">
+                        Add to Cart
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Offer Banner -->
+    <section class="offer-section">
+
+        <div>
+            <p>LIMITED TIME OFFER</p>
+
+            <h2>Get up to 30% OFF</h2>
+
+            <p>
+                Refresh your wardrobe and home with
+                our special offers.
+            </p>
+
+            <a href="clothing.html" class="btn">
+                Explore Offers
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h2>🌸 PastelCart</h2>
+                <p>
+                    Your one-stop destination for
+                    beautiful everyday shopping.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="cart.html">Cart</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div>
+                <h3>Categories</h3>
+                <a href="clothing.html">Clothing</a>
+                <a href="footwear.html">Footwear</a>
+                <a href="kitchen.html">Kitchen</a>
+                <a href="jewellery.html">Jewellery</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 PastelCart. All Rights Reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
